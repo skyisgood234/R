@@ -190,7 +190,7 @@ Iv: 'Link sesad !!'
 },
 only: {
 nsfw: 'Fitur nsfw belum di aktifkan silakan hubungi admin untuk mengaktifkan',
-group: 'Fitur khusus grup, ini chatpribadi tolol !!',
+group: 'Fitur khusus grup, ini chat pribadi tolol !!',
 owner: 'Fitur khusus owner, lu siapa ajg !!',
 admin: 'Fitur khusus admin, lu siapa ajg !!',
 Badmin: 'Silakan jadikan bot admin dulu !!'
@@ -1095,18 +1095,15 @@ menu =
 ➪ *Permanen :* _10.000_
 
 ───────────────
-*_By RzLModz_* :
-───────────────
-\`\`\`OPEN MURIDBOT :\`\`\`
-➪ *Murid biasa :* _20.000_
-➪ *Murid premium :* _50.000_
+*_By Sky4You_* :
+─────────────── 
 
 \`\`\`OPEN BUAT SC :\`\`\`
 ➪ *Script Store :* _Hubungi owner_
 ➪ *Script Biasa :* _Hubungi owner_
 Untuk yang mau beli script / sc
 Bisa request jika minat silakan hubungi RzLModz
-Nomor : https://wa.me/message/DXZST7RDO5AYD1`
+Nomor : https://wa.me/6285817627091`
 RzL.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
@@ -1115,10 +1112,9 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 gambar = fs.readFileSync('./media/sewa.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Gopay : _088274342094_
-• Dana : _088274342094_
+• Dana : _085817627091_
 • Qris All pay : _Scan diatas ngab_
-• Pulsa : _083836899381_
+• Pulsa : _085817627091_
 • _NOTE :kirim bukti TF ke owner !_`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
